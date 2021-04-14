@@ -28,12 +28,12 @@ namespace TaskNr8
         
 
         public double temp;
-        public string date;
+        public DateTime date;
         public double humidity;
         public windSpeed wind;
         public cloudCover cloud;
 
-        public WeatherStation(double temp, string date, double humidity, windSpeed wind, cloudCover cloud)
+        public WeatherStation(double temp, DateTime date, double humidity, windSpeed wind, cloudCover cloud)
         {
             this.cloud = cloud;
             this.wind = wind;
